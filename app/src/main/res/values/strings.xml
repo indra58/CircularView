@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Circular View</string>
+    <string name="tag_is_center">center</string>
 </resources>

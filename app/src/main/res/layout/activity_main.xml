@@ -10,10 +10,15 @@
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
         android:src="@drawable/background" />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:id="@+id/quickLinksMenu" />
 
-    <com.example.shr3j.circularview.circularview.CircularListView
+    <com.example.shr3j.circularview.recyclercircularview.CircleRecyclerView
         android:id="@+id/circle_list"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
         android:clickable="false" />
 </RelativeLayout>
